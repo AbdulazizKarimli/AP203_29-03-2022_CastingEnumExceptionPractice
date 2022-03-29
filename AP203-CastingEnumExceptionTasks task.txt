@@ -1,0 +1,77 @@
+1.1 Currecy enum
+
+- Usd - Dollar
+- Eur - Yevro
+- TRY - Türk lirası - 8.73
+
+1.2 Program class
+- Exchange() - bu method parametr olaraq bir Enum tipindən obyekt qəbul edəcək birdə double tipindən azn, method daxilində ilk olaraq yoxlamaq lazımdır ki gələn 
+Enum obyekti Currecy enumıdırmı daha sonra daha sonra hansı valyuta göndərilibsə göndərilən azn-i həmin valyutaya uyğun konvertasiya edib geriyə qaytaracaq. 
+Məsələn: method-a parametr olaraq azn dəyəri 2 göndərildisə və valyuta usd göndərildisə geriyə 2 * 0.59 = 1.18 qaytarılmalıdır.
+
+
+----
+
+
+Aşağıdakı custom exception-ı yaradın
+- AgeException
+
+Human class
+- Name
+- Surname
+- Age - əgər yaş sıfır və ya sıfırdan kiçik daxil olunarsa yaratdığınız AgeException baş versin.
+
+
+----
+
+
+Role enum
+- Admin - default olaraq 1 dən başlasın
+- Member
+
+
+User class
+- Id - qıraqdan set etmək olmaz yalnız get etmək olar hər dəfə yeni bir user obyekti yaranan zaman id 
+bir vahid artmalıdır.
+- Username
+- Password - static method olacaq və password-un doğru olub olmadığını yoxlayacaq 
+şərtlər: ən az 1 böyük hərf, 1 kiçik hərf, 1 rəqəm, uzuluq 8.
+- Role - yuxarıda yaratdığını Role enum-ı tipindən olacaq.
+- ShowInfo()
+
+ps: Username, password, role dəyərləri olmadan user obyekti yaratmaq olmaz
+
+Employee class
+- Id - qıraqdan set etmək olmaz yalnız get etmək olar hər dəfə yeni bir employee obyekti yaranan zaman id bir vahid artmalıdır.
+- Name
+- Salary
+- ShowInfo()
+
+ps: Name, Salary dəyərləri olmadan employee obyekti yaratmaq olmaz
+
+Department class
+- EmployeeLimit
+- Employees - array
+- AddEmployee() - parametr olaraq bir Employee obyekti qəbul edir və array-ə əlavə edir əgər 
+EmployeeLimit aşılarsa geriyə bir exception qaytarsın.
+- GetEmployeeById() - parametr olaraq bir nullable int id qəbul edir və həmin id-li employee obyektini 
+tapıb geriyə qaytarır tapmasa null qaytarır.
+- GetAllEmployees() - geriyə employees arrayini qaytarır.
+
+ps: EmployeeLimit dəyəri olmadan Department obyekti yaratmaq olmaz
+
+Program class
+
+Bir user obyekti yaradılsın və console-dan bütün məlumatları daxil olunsun əgər password yanlış 
+daxil edilsə yenidən password-u istəsin əgər olmayan bir role daxil edilsə yenidən
+role dəyəri istənsin.
+
+Bir Deparment obyekti yaradılsın.
+
+Menu
+1. Add employee
+2. Get employee by id
+3. Get all employee
+0. Quit
+
+əgər user-in role-u admin deyilsə yeni bir employee əlavə edə bilməsin bir xəta mesajı çıxarsın və yenidən menu ekrana çıxsın.
