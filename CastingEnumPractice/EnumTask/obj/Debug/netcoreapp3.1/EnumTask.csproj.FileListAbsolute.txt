@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\bin\Debug\netcoreapp3.1\EnumTask.exe
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\bin\Debug\netcoreapp3.1\EnumTask.deps.json
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\bin\Debug\netcoreapp3.1\EnumTask.runtimeconfig.json
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\bin\Debug\netcoreapp3.1\EnumTask.runtimeconfig.dev.json
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\bin\Debug\netcoreapp3.1\EnumTask.dll
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\bin\Debug\netcoreapp3.1\EnumTask.pdb
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\obj\Debug\netcoreapp3.1\EnumTask.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\obj\Debug\netcoreapp3.1\EnumTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\obj\Debug\netcoreapp3.1\EnumTask.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\obj\Debug\netcoreapp3.1\EnumTask.AssemblyInfo.cs
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\obj\Debug\netcoreapp3.1\EnumTask.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\obj\Debug\netcoreapp3.1\EnumTask.dll
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\obj\Debug\netcoreapp3.1\EnumTask.pdb
+C:\Users\HP\Desktop\CastingEnumPractice\EnumTask\obj\Debug\netcoreapp3.1\EnumTask.genruntimeconfig.cache
